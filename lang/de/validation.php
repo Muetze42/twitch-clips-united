@@ -3,6 +3,18 @@
 declare(strict_types=1);
 
 return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Validation Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines contain the default error messages used by
+    | the validator class. Some of these rules have multiple versions such
+    | as the size rules. Feel free to tweak each of these messages here.
+    |
+    */
+
     'accepted'             => ':Attribute muss akzeptiert werden.',
     'accepted_if'          => ':Attribute muss akzeptiert werden, wenn :other :value ist.',
     'active_url'           => ':Attribute ist keine gültige Internet-Adresse.',
@@ -34,7 +46,6 @@ return [
     'digits'               => ':Attribute muss :digits Stellen haben.',
     'digits_between'       => ':Attribute muss zwischen :min und :max Stellen haben.',
     'dimensions'           => ':Attribute hat ungültige Bildabmessungen.',
-    'disposable-email'     => 'Dieser E-Mail-Anbieter ist nicht zulässig.',
     'distinct'             => ':Attribute beinhaltet einen bereits vorhandenen Wert.',
     'doesnt_end_with'      => ':Attribute darf nicht mit einem der folgenden enden: :values.',
     'doesnt_start_with'    => ':Attribute darf nicht mit einem der folgenden beginnen: :values.',
@@ -141,6 +152,35 @@ return [
     'uppercase'            => ':Attribute muss in Großbuchstaben sein.',
     'url'                  => ':Attribute muss eine URL sein.',
     'uuid'                 => ':Attribute muss ein UUID sein.',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Custom Validation Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | Here you may specify custom validation messages for attributes using the
+    | convention "attribute.rule" to name the lines. This makes it quick to
+    | specify a specific custom language line for a given attribute rule.
+    |
+    */
+
+    'custom' => [
+        'attribute-name' => [
+            'rule-name' => 'custom-message',
+        ],
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Custom Validation Attributes
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used to swap our attribute placeholder
+    | with something more reader friendly such as "E-Mail Address" instead
+    | of "email". This simply helps us make our message more expressive.
+    |
+    */
+
     'attributes'           => [
         'address'                  => 'Adresse',
         'age'                      => 'Alter',
