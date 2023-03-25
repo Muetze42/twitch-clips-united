@@ -21,4 +21,5 @@ return [
     'contact-request-send' => 'Kontakt Anfrage gesendet',
     'contact-confirm-text' => 'Deine Kontaktanfrage wurde gesendet.',
     'thanks'               => 'Danke',
+    'disposable-email'     => 'Dieser E-Mail-Anbieter ist nicht zulässig.',
 ];
