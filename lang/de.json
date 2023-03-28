@@ -1,8 +1,10 @@
 {
     ":item on :provider": ":item auf :provider",
+    ":name is represented in :channels": ":name ist in :channels vertreten",
     "A channel is missing or you just have a request?": "Es fehlt ein Kanal oder Du hast einfach nur so ein Anliegen?",
     "Accept :item": ":item akzeptieren",
     "Allow external content from :provider": "Externe Inhalte von :provider zulassen",
+    "and": "und",
     "Change permissions": "Berechtigungen ändern",
     "Channels": "Channels",
     "Confirm email address": "E-Mail Adresse bestätigen",
@@ -35,6 +37,5 @@
     "We’re lost in space.": "We’re lost in space.",
     "Whoops": "Whoops",
     "Your message will be processed as soon as possible.": "Deine Nachricht wird so schnell wie möglich bearbeitet.",
-    "Your session has expired. Click OK to reload the page.": "Deine Sitzung ist abgelaufen. Klicke auf OK um die Seite neu zu laden.",
-    ":name is represented in :channels": ":name ist in :channels vertreten"
+    "Your session has expired. Click OK to reload the page.": "Deine Sitzung ist abgelaufen. Klicke auf OK um die Seite neu zu laden."
 }
