@@ -21,4 +21,5 @@ return [
     'contact-request-send' => 'Contact request sent',
     'contact-confirm-text' => 'Your contact request has been sent.',
     'thanks'               => 'thanks',
+    'disposable-email'     => 'This email provider is not allowed.',
 ];
